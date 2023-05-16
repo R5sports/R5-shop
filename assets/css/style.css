@@ -6,7 +6,7 @@
 
 body {
   font-family: Georgia, serif;
-  background-color: #887b7b;
+  background-color: #a38080;
   align-items: center;
 }
 
@@ -16,7 +16,7 @@ body {
   align-items: center;
   height: 80px;
   padding: 0 20px;
-  background-color: #121212;
+  background-color: #e0c3c3;
   color: #000000;
 }
 .content {
@@ -41,6 +41,23 @@ body {
 .menu-button img {
   height: 60px;
 }
+.buy-now-button {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.buy-now-button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
 
 .menu .menu-button {
   background: none;
